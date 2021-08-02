@@ -1,0 +1,111 @@
+a:hover{
+    background-color: transparent;
+}
+.dark{
+    background-color: black;
+    color: white
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+.contact-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0px 30px 0px 30px;
+}
+.contact-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    max-width: 50%;
+}
+.contact-heading{
+    color: #4285F4;
+    font-weight: 600;
+    font-size: 35px;
+}
+.contact-description{
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+}
+.social-icons-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon-item{
+    padding: 5px;
+    font-size: 40px;
+}
+.linkedin{
+    color: #0077b5;
+}
+.instagram{
+    color: #e4405f;
+}
+.google{
+    color: #ff0000;
+}
+.mail-button{
+    margin: 14px 0px 0px 0px;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #4285F4;
+}
+.light-button{
+    color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.dark-button{
+    color: white;
+}
+.setlineheight{
+    margin-top: -10px;
+}
+.mail-button-light:hover{
+    -moz-transform: scale(1.05) rotate(0deg);
+    -webkit-transform: scale(1.05) rotate(0deg);
+    -o-transform: scale(1.05) rotate(0deg);
+    -ms-transform: scale(1.05) rotate(0deg);
+    transform: scale(1.05) rotate(0deg);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px #4285F4;
+}
+.mail-button-dark:hover{
+    -moz-transform: scale(1.05) rotate(0deg);
+    -webkit-transform: scale(1.05) rotate(0deg);
+    -o-transform: scale(1.05) rotate(0deg);
+    -ms-transform: scale(1.05) rotate(0deg);
+    transform: scale(1.05) rotate(0deg);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+@media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px){
+    .contact-main-container{
+        flex-direction: column;
+    }
+    .contact-description{
+        width: 100%;
+    }
+}
+
