@@ -10,6 +10,7 @@ const Contact = () => {
             const {activeMode} = value
             const mode = activeMode ? "dark" : "light"
             const buttonMode = activeMode ? 'dark-button mail-button-dark' : 'light-button mail-button-light'
+            const iconMode = activeMode ? 'git-dark' : 'git-light'
                 const renderContact = () => {
                     return(
                         <div className={`contact-main-container ${mode}`}>
@@ -22,19 +23,27 @@ const Contact = () => {
                                 <div className="social-tech-container clearmargin">
                                     <div className="div">
                                         <h5 className="text">Github</h5>
-                                        <AiFillGithub  className="icon-item" />
+                                        <a href="https://github.com/Sabarinath049" target="_blank" rel="noreferrer">
+                                            <AiFillGithub className={`icon-item ${iconMode}`} />
+                                        </a>
                                     </div>
                                     <div className="div">
                                         <h5 className="text">Linkedin</h5>
-                                        <AiFillLinkedin className="icon-item linkedin" />
+                                        <a href="https://www.linkedin.com/in/teja-c-944a53115/" target="_blank" rel="noreferrer">
+                                            <AiFillLinkedin className="icon-item linkedin" />
+                                        </a>
                                     </div>
                                     <div className="div">
                                         <h5 className="text">Google</h5>
-                                        <AiFillGoogleCircle className="icon-item google" />
+                                        <a href="mailto:tejachillapalli@gmail.com">
+                                            <AiFillGoogleCircle className="icon-item google" />
+                                        </a>
                                     </div>
                                     <div className="div">
                                         <h5 className="text">Instagram</h5>
-                                        <AiFillInstagram className="icon-item instagram" />
+                                        <a href="https://www.instagram.com/i.sabarinath/" target="_blank" rel="noreferrer">
+                                            <AiFillInstagram className="icon-item instagram" />
+                                        </a>
                                     </div>
                                 </div>
                                 <a href="mailto:tejachillapalli@gmail.com"><button type="button" className={`mail-button clearmargin ${buttonMode}`}>Drop a mail</button></a>
