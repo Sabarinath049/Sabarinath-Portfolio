@@ -149,6 +149,9 @@
     align-items: center;
     width: 100%;
 }
+.web-dev-heading{
+    margin: 0px;
+}
 .technology-container{
     display: flex;
     justify-content: flex-start;
@@ -186,6 +189,23 @@
 }
 .npm{
     color:#cc3534
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+}
+.div .text{
+    visibility: hidden;
+}
+.div:hover .text{
+    visibility: visible;
 }
 .webdev-description{
     display: flex;

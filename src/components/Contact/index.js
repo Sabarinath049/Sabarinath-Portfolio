@@ -19,7 +19,7 @@ const Contact = () => {
                             <div className='contact-details-container'>
                                 <h1 className="contact-heading">Contact Me</h1>
                                 <p className="contact-description setlineheight">I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with MERN Development.</p>
-                                <div className="social-icons-container">
+                                <div className="social-tech-container">
                                     <AiFillGithub  className="icon-item" />
                                     <AiFillLinkedin className="icon-item linkedin" />
                                     <AiFillGoogleCircle className="icon-item google" />

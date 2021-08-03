@@ -36,8 +36,14 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="social-icons-container">
-                                <AiFillGithub className="icon-item" />
-                                <AiFillLinkedin className="icon-item linkedin" />
+                                <div className="div">
+                                    <h5 className="text">Github</h5>
+                                    <AiFillGithub className="icon-item" />
+                                </div>
+                                <div className="div">
+                                    <h5 className="text">Linkedin</h5>
+                                    <AiFillLinkedin className="icon-item linkedin" />
+                                </div>
                             </div>
                             <div className="resume-container">
                                 <button type="button" className={`mail-button ${buttonMode}`}>Contact me</button>
@@ -49,17 +55,41 @@ const Home = () => {
                                     <h1>Image</h1>
                                 </div>
                                 <ul className="webdev-description">
-                                    <li><h1>Web Development</h1></li>
+                                    <li><h1 className="web-dev-heading">Web Development</h1></li>
                                     <li>
                                         <div className="technology-container">
-                                            <AiFillHtml5 className="technology-item html" />
-                                            <DiCss3 className="technology-item css" />
-                                            <BsFillBootstrapFill className="technology-item bootstrap" />
-                                            <DiJavascript1 className="technology-item js" />
-                                            <DiReact className="technology-item react" />
-                                            <DiNodejsSmall className="technology-item node" />
-                                            <DiSqllite className="technology-item sql" />
-                                            <RiNpmjsFill className="technology-item npm" />
+                                            <div className="div">
+                                                <h5 className="text">HTML</h5>
+                                                <AiFillHtml5 className="technology-item html" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">CSS</h5>
+                                                <DiCss3 className="technology-item css" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">Bootstrap</h5>
+                                                <BsFillBootstrapFill className="technology-item bootstrap" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">Javascipt</h5>
+                                                <DiJavascript1 className="technology-item js" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">React</h5>
+                                                <DiReact className="technology-item react" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">Node</h5>
+                                                <DiNodejsSmall className="technology-item node" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">SQLite</h5>
+                                                <DiSqllite className="technology-item sql" />
+                                            </div>
+                                            <div className="div">
+                                                <h5 className="text">NPM</h5>
+                                                <RiNpmjsFill className="technology-item npm" />
+                                            </div>
                                         </div>
                                     </li>
                                     <li className="li-item">⚡ Building responsive websites using HTML5, CSS3, BootStrap5, Flexbox, ReactJS & NodeJS</li>
