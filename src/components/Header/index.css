@@ -36,6 +36,10 @@ a{
     padding: 14px;
     font-weight: 600;
 }
+.mobile-nav-item{
+    padding: 5px;
+    font-size: 25px;
+}
 a:hover{
     background-color: #4285F4;
 }
