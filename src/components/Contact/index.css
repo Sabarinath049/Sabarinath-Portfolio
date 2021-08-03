@@ -36,10 +36,11 @@ a:hover{
     text-align: center;
     font-weight: 600;
 }
-.social-icons-container{
+.social-tech-container{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    align-self: center;
 }
 .icon-item{
     padding: 5px;
@@ -73,7 +74,8 @@ a:hover{
     color: white;
 }
 .setlineheight{
-    margin-top: -10px;
+    margin: 0px;
+    padding: 0px;
 }
 .mail-button-light:hover{
     -moz-transform: scale(1.05) rotate(0deg);
