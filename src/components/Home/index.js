@@ -13,6 +13,7 @@ const Home = () => {
                 const mode = activeMode ? 'dark' : 'light'
                 const modePerson = activeMode ? 'light' : 'dark'
                 const buttonMode = activeMode ? 'dark-button mail-button-dark' : 'light-button mail-button-light'
+                const iconMode = activeMode ? 'git-dark' : 'git-light'
                 const renderHome = () => {
                     return(
                         <div className={`home-main-container ${mode}`}>
@@ -38,16 +39,22 @@ const Home = () => {
                             <div className="social-icons-container">
                                 <div className="div">
                                     <h5 className="text">Github</h5>
-                                    <AiFillGithub className="icon-item" />
+                                    <a href="https://github.com/Sabarinath049" target="_blank" rel="noreferrer">
+                                        <AiFillGithub className={`icon-item ${iconMode}`} />
+                                    </a>
                                 </div>
                                 <div className="div">
                                     <h5 className="text">Linkedin</h5>
-                                    <AiFillLinkedin className="icon-item linkedin" />
+                                    <a href="https://www.linkedin.com/in/teja-c-944a53115/" target="_blank" rel="noreferrer">
+                                        <AiFillLinkedin className="icon-item linkedin" />
+                                    </a>
                                 </div>
                             </div>
                             <div className="resume-container">
                                 <button type="button" className={`mail-button ${buttonMode}`}>Contact me</button>
-                                <button type="button" className={`mail-button ${buttonMode}`}>See my resume</button>
+                                <a href="https://docs.google.com/document/d/1S4LMpodBiXutWfh3a8vpswulXNH5PzO28zy4cNE69Ws/edit?usp=sharing" target="_blank" rel="noreferrer">
+                                    <button type="button" className={`mail-button ${buttonMode}`}>See my resume</button>
+                                </a>
                             </div>
                             <h1>What I Do?</h1>
                             <div className="webdev-container">
