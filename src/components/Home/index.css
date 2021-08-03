@@ -169,6 +169,12 @@
     color: #f06529;
     padding-left: 0px;
 }
+.git-light{
+    color: black;
+}
+.git-dark{
+    color: white;
+}
 .css{
     color: #2965f1
 }
