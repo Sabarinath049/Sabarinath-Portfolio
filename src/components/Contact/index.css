@@ -63,6 +63,12 @@ a:hover{
     padding: 5px;
     font-size: 40px;
 }
+.git-light{
+    color: black;
+}
+.git-dark{
+    color: white;
+}
 .linkedin{
     color: #0077b5;
 }
