@@ -1,5 +1,8 @@
 import ModeContext from '../../Context/index'
-import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiFillHtml5} from 'react-icons/ai'
+import {BsFillBootstrapFill} from 'react-icons/bs'
+import { DiCss3,DiJavascript1, DiReact, DiNodejsSmall, DiSqllite } from 'react-icons/di'
+import {RiNpmjsFill} from 'react-icons/ri'
 import './index.css'
 
 const Home = () => {
@@ -47,9 +50,22 @@ const Home = () => {
                                 </div>
                                 <ul className="webdev-description">
                                     <li><h1>Web Development</h1></li>
-                                    <li>⚡ Building responsive websites using HTML5, CSS3, BootStrap5, Flexbox, ReactJS & NodeJS</li>
-                                    <li>⚡ Developing Web Apps using ReactJs</li>
-                                    <li>⚡ Handling Backend with NodeJS</li>
+                                    <li>
+                                        <div className="technology-container">
+                                            <AiFillHtml5 className="technology-item html" />
+                                            <DiCss3 className="technology-item css" />
+                                            <BsFillBootstrapFill className="technology-item bootstrap" />
+                                            <DiJavascript1 className="technology-item js" />
+                                            <DiReact className="technology-item react" />
+                                            <DiNodejsSmall className="technology-item node" />
+                                            <DiSqllite className="technology-item sql" />
+                                            <RiNpmjsFill className="technology-item npm" />
+                                        </div>
+                                    </li>
+                                    <li className="li-item">⚡ Building responsive websites using HTML5, CSS3, BootStrap5, Flexbox, ReactJS & NodeJS</li>
+                                    <li className="li-item">⚡ Developing Web Apps using ReactJs</li>
+                                    <li className="li-item">⚡ Handling Backend with NodeJS</li>
+                                    <li className="li-item">⚡ Verson controlling with Git</li>
                                 </ul>
                             </div>
                         </div>
