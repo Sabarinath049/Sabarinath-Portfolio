@@ -2,8 +2,9 @@
 a{
     text-decoration: none;
 }
-.icon:hover{
-    background-color: #4285F4;   
+.nav-item:hover{
+    background-color: #4285F4; 
+    color: white;  
 }
 .dark{
     background-color: black;

@@ -30,7 +30,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />
@@ -55,7 +55,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />
@@ -80,7 +80,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />
@@ -105,7 +105,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />
@@ -130,7 +130,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />
@@ -155,7 +155,7 @@ const Projects = () => {
                                 <h1 className="project-item-heading clearmargin">Appointments App</h1>
                                 <FontAwesomeIcon icon={faLink} className="link-item clearmargin"/>
                             </div>
-                            <div className="technology-container clearmargin">
+                            <div className="technology-container">
                                 <div className="div">
                                     <h5 className="text">Html</h5>
                                     <AiFillHtml5 className="technology-item html" />

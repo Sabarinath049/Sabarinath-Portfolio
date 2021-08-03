@@ -5,7 +5,7 @@ import { DiCss3,DiJavascript1, DiReact, DiNodejsSmall, DiSqllite } from 'react-i
 import {RiNpmjsFill} from 'react-icons/ri'
 import './index.css'
 
-const Home = () => {
+const Home = props => {
     return(
         <ModeContext.Consumer>
             {value=>{
