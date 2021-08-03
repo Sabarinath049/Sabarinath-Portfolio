@@ -136,6 +136,10 @@
 .react{
     color: #61dbfb
 }
+.clearmargin{
+    margin-top: 10px;
+    margin-bottom: 10px   
+}
 .project-item-light:hover{
     -moz-transform: scale(1.05) rotate(0deg);
     -webkit-transform: scale(1.05) rotate(0deg);
