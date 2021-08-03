@@ -24,7 +24,7 @@ const Header =  () => (
                         <Link to="/contact" className={`nav-item ${mode}`}>Contact</Link>
                     </div>
                     <div className="nav-mobile-container">
-                        <FontAwesomeIcon className={`nav-item ${mode}`} icon={faMoon} />
+                        <FontAwesomeIcon icon={faMoon} className={`icon nav-item ${mode}`} onClick={changeMode}></FontAwesomeIcon>
                         <Link to="/">
                             <FontAwesomeIcon className={`nav-item ${mode}`} icon={faHome} />
                         </Link>
