@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 *{
   font-family: 'Open Sans';
+  box-sizing: border-box;
 }
 
 .dark{
@@ -23,53 +23,51 @@
     min-width: 320px;
     max-width: 100%;
 }
-.project-container{
+
+.projects-landing-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px 0px 30px;
     width: 100%;
 }
-.project-heading-container{
+
+.projects-landing-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 320px;
-    max-width: 50%; 
-}
-.projects-heading{
-    color: #4285F4;
-    font-weight: 600;
-    font-size: 35px;
-}
-.projects-description{
-    width: 80%;
-    text-align: center;
-    font-weight: 600;
-}
-.project-image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 320px;
     max-width: 50%;
 }
-.projects-list-container{
+.projects-landing-description-paragraph{
+    text-align: center;
+    width: 80%;
+}
+.projects-landing-image{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: 50%;    
+}
+
+.project-list-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     min-width: 320px;
     max-width: 100%;
+    flex-wrap: wrap;
 }
+
 .project-item-light{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid;
-    padding: 20px;
+    padding: 15px;
     background-color: #f7f7f8;
     outline: none;
     border: none;
@@ -81,13 +79,19 @@
     -ms-transition: 0.8s;
     transition: 0.8s;
 }
+.card-heading-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .project-item-dark{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid;
-    padding: 20px;
+    padding: 15px;
     color: white;
     border: 0px solid #f7f7f8;
     outline: none;
@@ -97,48 +101,53 @@
     -moz-transition: 0.8s;
     -o-transition: 0.8s;
     -ms-transition: 0.8s;
-    transition: 0.8s;    
+    transition: 0.8s; 
 }
 
-.heading-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.project-item-heading{
-    margin-right: 20px;
-    font-weight: 800;
-    font-size: 30px;
-}
 .link-item{
+    margin-left: 10px;
     font-size: 25px;
 }
-.technology-container{
+
+.project-technologies-container{
     display: flex;
     justify-content: flex-start;
-    align-items: center;  
+    align-items: center;
+    align-self: center;
 }
-.technology-item{
+.text{
+    font-size: 10px;
+}
+.project-technology-item{
     padding: 5px;
-    font-size: 40px;
+    font-size: 40px
 }
+.project-card-description{
+    width: 90%;
+    font-size: 12px;
+}
+
 .html{
     color: #f06529;
 }
+
 .css{
     color: #2965f1
 }
+
 .js{
     color: #f0db4f
 }
+
 .react{
     color: #61dbfb
 }
+
 .clearmargin{
     margin-top: 10px;
     margin-bottom: 10px   
 }
+
 .project-item-light:hover{
     -moz-transform: scale(1.05) rotate(0deg);
     -webkit-transform: scale(1.05) rotate(0deg);
@@ -153,6 +162,7 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     background-color: transparent;
 }
+
 .project-item-dark:hover{
     -moz-transform: scale(1.05) rotate(0deg);
     -webkit-transform: scale(1.05) rotate(0deg);
@@ -166,86 +176,80 @@
     transition: 0.5s;
     box-shadow: 0px 0px 15px #4285F4;
 }
-@media screen and (max-width: 320px) {
-    .project-item-heading{
-        font-size: 24px;
-    }
-    .project-container{
+
+@media screen and (max-width: 320px){
+    .projects-landing-section{
         flex-direction: column;
     }
-    .projects-description{
-        width: 320px;
+    .project-list-container{
+        flex-direction: column;
+        justify-content: center;
     }
     .project-item-light{
-        min-width: 290px;
+        max-width: 275px;
     }
     .project-item-dark{
-        min-width: 290px;
-    }
-    .technology-item{
-        font-size: 20px;
+        max-width: 275px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-    .project-item-heading{
-        font-size: 24px;
-    }
-    .project-container{
+    .projects-landing-section{
         flex-direction: column;
     }
-    .projects-description{
-        width: 320px;
-    }
-    .project-item-light{
-        min-width: 290px;
+    .project-list-container{
+        flex-direction: column;
+        justify-content: center;
     }
     .project-item-dark{
-        min-width: 290px;
+        max-width: 340px;
+    }
+    .project-item-light{
+        max-width: 340px;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px){
-    .project-item-heading{
-        font-size: 24px;
-    }
-    .project-container{
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .projects-landing-section{
         flex-direction: column;
     }
-    .project-item-light{
-        min-width: 300px;
-    }
-    .project-item-dark{
-        min-width: 300px;
-    }
-    .technology-container{
-        min-width: 320px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .project-item-heading{
-        font-size: 30px;
-    }
-    .link-item{
-        font-size: 15px;
-    }
-    .project-description{
-        font-size: 14px;
-    }
-    .project-item-light{
-        min-width: 350px;
-    }
-    .project-item-dark{
-        min-width: 350px;
-    }    
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .project-item-light{
-        width: 350px;
-    }   
-    .project-item-dark{
-        width: 350px;
+    .projects-landing-description{
+        max-width: 370px;
     } 
+    .projects-landing-image{
+        max-width: 370px;
+    }
+    .project-list-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 426px) and (max-width:768px){
+    .project-item-light{
+        max-width: 320px;
+    }
+    .project-item-dark{
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .project-item-light{
+        max-width: 290px;
+    }
+    .project-item-dark{
+        max-width: 290px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .project-item-light{
+        max-width: 400px;
+    }
+    .project-item-dark{
+        max-width: 400px;
+    }
+    
 }

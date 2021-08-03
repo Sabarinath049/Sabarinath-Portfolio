@@ -1,7 +1,9 @@
 import {Link} from 'react-router-dom'
 import ModeContext from '../../Context/index'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faSchool, faLaptopCode, faEnvelope, faMoon } from '@fortawesome/free-solid-svg-icons'
+import {BsMoon} from 'react-icons/bs'
+import {AiFillHome} from 'react-icons/ai'
+import {FaSchool, FaLaptopCode} from 'react-icons/fa'
+import {BiMailSend} from 'react-icons/bi'
 import './index.css'
 
 const Header =  () => (
@@ -17,25 +19,25 @@ const Header =  () => (
                         <h1 className="heading">{name}</h1>
                     </div>
                     <div className="nav-container">
-                        <FontAwesomeIcon icon={faMoon} className={`nav-item ${mode}`} onClick={changeMode}></FontAwesomeIcon>
+                        <BsMoon onClick={changeMode} className="mobile-nav-item"/>
                         <Link to="/" className={`nav-item ${mode}`}>Home</Link>
                         <Link to="/education" className={`nav-item ${mode}`}>Experience & Education</Link>
                         <Link to="/projects" className={`nav-item ${mode}`}>Projects</Link>
                         <Link to="/contact" className={`nav-item ${mode}`}>Contact</Link>
                     </div>
                     <div className="nav-mobile-container">
-                        <FontAwesomeIcon icon={faMoon} className={`nav-item ${mode}`} onClick={changeMode}></FontAwesomeIcon>
+                        <BsMoon onClick={changeMode} className="mobile-nav-item" />
                         <Link to="/">
-                            <FontAwesomeIcon className={`nav-item ${mode}`} icon={faHome} />
+                            <AiFillHome className={`mobile-nav-item ${mode}`} />
                         </Link>
                         <Link to="/education">
-                            <FontAwesomeIcon className={`nav-item ${mode}`} icon={faSchool} />
+                            <FaSchool className={`mobile-nav-item ${mode}`} />
                         </Link>
                         <Link to="/projects">
-                            <FontAwesomeIcon className={`nav-item ${mode}`} icon={faLaptopCode} />
+                            <FaLaptopCode className={`mobile-nav-item ${mode}`} />
                         </Link>
                         <Link to="/contact">
-                            <FontAwesomeIcon className={`nav-item ${mode}`} icon={faEnvelope} />
+                            <BiMailSend className={`mobile-nav-item ${mode}`} />
                         </Link>
                     </div>
                 </div>

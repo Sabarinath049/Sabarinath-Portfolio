@@ -143,6 +143,9 @@
     -ms-transition: 0.5s;
     transition: 0.5s;
 }
+ul{
+    padding-left: 0px;
+}
 .webdev-container{
     display: flex;
     justify-content: space-between;
