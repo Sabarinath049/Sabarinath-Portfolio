@@ -246,10 +246,10 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     .project-item-light{
-        max-width: 370px;
+        max-width: 350px;
     }
     .project-item-dark{
-        max-width: 370px;
+        max-width: 350px;
     }
     
 }
