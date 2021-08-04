@@ -228,19 +228,19 @@
 
 @media screen and (min-width: 426px) and (max-width:768px){
     .project-item-light{
-        max-width: 320px;
+        max-width: 310px;
     }
     .project-item-dark{
-        max-width: 320px;
+        max-width: 310px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .project-item-light{
-        max-width: 290px;
+        max-width: 280px;
     }
     .project-item-dark{
-        max-width: 290px;
+        max-width: 280px;
     }
 }
 
