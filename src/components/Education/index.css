@@ -1,0 +1,199 @@
+*{
+    font-weight: 600;
+}
+.experience-heading-element{
+    color: #4285f4;
+}
+.education-heading-element{
+    color: #4285f4;
+    align-self: center;
+}
+.education-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    min-width: 320px;
+    max-width: 100%;
+}
+.light{
+    color: black;
+    background-color: white;
+}
+.dark{
+    color: white;
+    background-color: black;
+}
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 320px;
+}
+.education-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 320px;    
+}
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.education-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.tech-role-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 270px;
+}
+.education-role-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.role{
+    background-color: #ffa500;
+    padding: 12px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.duration{
+    font-size: 10px;
+}
+.education-duration{
+    font-size: 12px;
+}
+.company-name{
+    margin: 16px 0px 16px 0px;
+}
+.work{
+    margin: 0px 0px 0px 14px;
+    font-size: 14px;
+}
+.work:before {
+    content:        "";
+    border-color:   transparent #111;
+    border-style:   solid;
+    border-width:   0.35em 0 0.35em 0.45em;
+    display:        block;
+    height:         0;
+    left:           -1em;
+    position:       relative;
+    top:            0.9em;
+    width:          0;
+}
+.project-item-margin{
+    margin: 30px 0px 30px 0px
+}
+
+@media screen and (max-width: 320px) {
+    .education-main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .experience-item{
+        max-width: 275px;
+    }
+    .education-item{
+        max-width: 275px;
+    }
+    .education-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .education-main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tech-role-container{
+        min-width: 300px;
+    }
+    .duration{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .education-main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tech-role-container{
+        justify-content: flex-start;
+        max-width: 330px;
+    }
+    .duration{
+        margin-left: 14px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .education-container{
+        max-width: 48%;
+    }
+    .experience-container{
+        max-width: 48%;
+    }
+    .education-main-container{
+        align-items: flex-start;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .education-container{
+        max-width: 48%;
+    }
+    .experience-container{
+        max-width: 48%;
+    }
+    .education-main-container{
+        align-items: flex-start;
+    }    
+    .tech-role-container{
+        min-width: 300px;
+    }
+    .duration, .education-duration{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .education-container{
+        max-width: 48%;
+    }
+    .experience-container{
+        max-width: 48%;
+    }
+    .education-main-container{
+        justify-content: space-around;
+        align-items: flex-start;
+    }    
+    .tech-role-container{
+        min-width: 330px;
+    }
+    .duration, .education-duration{
+        font-size: 14px;
+    } 
+    .role{
+        font-size: 16px;
+    }   
+}

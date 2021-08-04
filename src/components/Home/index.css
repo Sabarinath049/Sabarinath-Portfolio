@@ -1,3 +1,6 @@
+*{
+    font-weight: 600;
+}
 .dark{
     background-color: black;
     color: white
@@ -57,7 +60,6 @@
 }
 .typewriter h1 {
   color: #4285F4;
-  font-weight: 700;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #4285F4;
   white-space: nowrap;
@@ -208,7 +210,6 @@ ul{
 .text{
     margin: 0px;
     padding: 0px;
-    font-weight: 700;
 }
 .div .text{
     visibility: hidden;

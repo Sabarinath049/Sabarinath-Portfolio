@@ -1,3 +1,6 @@
+*{
+    font-weight: 600;
+}
 .footer-container{
     display: flex;
     justify-content: center;
