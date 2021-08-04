@@ -12,7 +12,21 @@ const Education = () => {
                     <div className={`education-main-container ${mode}`}>
                         <div className="experience-container">
                         <h1 className="experience-heading-element">Experience</h1>
-                            <div className="experience-item">
+                        <div className="experience-item">
+                                <div className="tech-role-container">
+                                    <h3 className="role">MERN Stack Developer</h3>
+                                    <h4 className="duration">Aug 2020 - Present</h4>
+                                </div>
+                                <h4 className="company-name">Nxtwave</h4>
+                                <p className="work">Hands-on with Static Web Design</p>
+                                <p className="work">Worked on Responsive Web Design</p>
+                                <p className="work">Styling Webpages with CSS3, Bootstrap 4</p>
+                                <p className="work">Worked on Authentication and Authorization part with NodeJs</p>
+                                <p className="work">Implemented REST API's with NodeJs</p>
+                                <p className="work">Implemented CURD Operations with SQLite</p>
+                                <p className="work">Developed React Websites</p>
+                            </div>
+                            <div className="project-item-margin experience-item">
                                 <div className="tech-role-container">
                                     <h3 className="role">Javascript Developer</h3>
                                     <h4 className="duration">May 2021 - July 2021</h4>

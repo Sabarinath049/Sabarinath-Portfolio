@@ -1,8 +1,10 @@
 *{
     font-weight: 600;
+    line-height: 1.6;
 }
 .experience-heading-element{
     color: #4285f4;
+    align-self: center;
 }
 .education-heading-element{
     color: #4285f4;
@@ -85,7 +87,7 @@
 }
 .work:before {
     content:        "";
-    border-color:   transparent #111;
+    border-color:   transparent #4285f4;
     border-style:   solid;
     border-width:   0.35em 0 0.35em 0.45em;
     display:        block;
