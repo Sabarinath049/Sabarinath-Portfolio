@@ -8,6 +8,7 @@ import './App.css';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Education from './components/Education';
 
 class App extends Component {
   state = {
@@ -29,6 +30,7 @@ class App extends Component {
             <Header />
             <Switch>
               <Route exact path="/" component={Home} />
+              <Route exact path="/education" component={Education} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
             </Switch>
