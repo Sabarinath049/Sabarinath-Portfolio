@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sabarinath-Portfolio/static/css/main.c5d7587e.chunk.css",
+    "main.css": "/Sabarinath-Portfolio/static/css/main.628cb487.chunk.css",
     "main.js": "/Sabarinath-Portfolio/static/js/main.b5c98a23.chunk.js",
     "main.js.map": "/Sabarinath-Portfolio/static/js/main.b5c98a23.chunk.js.map",
     "runtime-main.js": "/Sabarinath-Portfolio/static/js/runtime-main.0a6d3024.js",
@@ -10,13 +10,13 @@
     "static/js/3.4d1bee1d.chunk.js": "/Sabarinath-Portfolio/static/js/3.4d1bee1d.chunk.js",
     "static/js/3.4d1bee1d.chunk.js.map": "/Sabarinath-Portfolio/static/js/3.4d1bee1d.chunk.js.map",
     "index.html": "/Sabarinath-Portfolio/index.html",
-    "static/css/main.c5d7587e.chunk.css.map": "/Sabarinath-Portfolio/static/css/main.c5d7587e.chunk.css.map",
+    "static/css/main.628cb487.chunk.css.map": "/Sabarinath-Portfolio/static/css/main.628cb487.chunk.css.map",
     "static/js/2.e0dd343b.chunk.js.LICENSE.txt": "/Sabarinath-Portfolio/static/js/2.e0dd343b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a6d3024.js",
     "static/js/2.e0dd343b.chunk.js",
-    "static/css/main.c5d7587e.chunk.css",
+    "static/css/main.628cb487.chunk.css",
     "static/js/main.b5c98a23.chunk.js"
   ]
 }
