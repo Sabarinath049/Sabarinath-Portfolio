@@ -46,11 +46,11 @@ const Contact = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <a href="mailto:tejachillapalli@gmail.com"><button type="button" className={`mail-button clearmargin ${buttonMode}`}>Drop a mail</button></a>
-                                <h1 className="contact-heading clearmargin">Address</h1>
-                                <p className="contact-description clearmargin">Guntur, AndhraPradesh - 522001</p>
-                                <h1 className="contact-heading clearmargin">Phone Number</h1>
-                                <p className="contact-description clearmargin">+91 8919974741</p>
+                                <a href="mailto:tejachillapalli@gmail.com"><button type="button" className='button-light'>Drop a mail</button></a>
+                                <h1 className="address-heading clearmargin">Address</h1>
+                                <p className="address-description clearmargin">Guntur, AndhraPradesh - 522001</p>
+                                <h1 className="address-heading clearmargin">Phone Number</h1>
+                                <p className="address-description clearmargin">+91 8919974741</p>
                             </div>
                         </div>
                     )

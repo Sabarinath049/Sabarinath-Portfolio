@@ -32,9 +32,8 @@ a:hover{
     max-width: 50%;
 }
 .contact-heading{
-    color: #4285F4;
+    color: #ffa500;
     font-weight: 600;
-    font-size: 35px;
 }
 .contact-description{
     width: 80%;
@@ -65,7 +64,6 @@ a:hover{
 }
 .icon-item{
     padding: 5px;
-    font-size: 40px;
 }
 .git-light{
     color: black;
@@ -133,6 +131,29 @@ a:hover{
     -ms-transition: 0.5s;
     transition: 0.5s;
 }
+.button-light{
+    background-color: #4285F4;
+    color: white;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+}
+
+.button-light:hover{
+    -moz-transform: scale(1.05) rotate(0deg);
+    -webkit-transform: scale(1.05) rotate(0deg);
+    -o-transform: scale(1.05) rotate(0deg);
+    -ms-transform: scale(1.05) rotate(0deg);
+    transform: scale(1.05) rotate(0deg);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
 @media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px){
     .contact-main-container{
         flex-direction: column;
@@ -140,5 +161,118 @@ a:hover{
     .contact-description{
         width: 100%;
     }
+    .contact-heading{
+        font-size: 30px;
+    }
+    .contact-description{
+        font-size: 16px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 20px;
+    }
+    .address-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #4285F4;
+    }
 }
 
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .contact-description{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .contact-description{
+        width: 100%;
+    }    
+    .contact-details-container{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .contact-main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-details-container{
+        min-width: 100%;
+    }
+    .contact-description{
+        min-width: 100%;
+    }
+    .contact-heading{
+        font-size: 30px;
+    }
+    .contact-description{
+        font-size: 16px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 30px;
+    }
+    .address-description{
+        font-size: 20px;
+        font-weight: 400;
+        color: #4285F4;
+    }  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact-heading{
+        font-size: 50px;
+    }
+    .contact-description{
+        font-size: 16px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 30px;
+    }
+    .address-description{
+        font-size: 20px;
+        font-weight: 400;
+        color: #4285F4;
+    }    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .contact-heading{
+        font-size: 56px;
+    }
+    .contact-description{
+        font-size: 20px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 40px;
+    }
+    .address-description{
+        font-size: 25px;
+        font-weight: 400;
+        color: #4285F4;
+    }      
+}
