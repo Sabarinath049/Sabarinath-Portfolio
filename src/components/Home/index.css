@@ -10,6 +10,13 @@
     background-color: white;
     color: black;
 }
+.dark-person{
+    color: white;
+    background-color: #2de28d;
+}
+.light-person{
+    color: black;
+}
 .home-main-container{
     display: flex;
     flex-direction: column;
@@ -34,10 +41,14 @@
     max-width: 50%;
 }
 .intro-heading{
-    color: #ffa500
+    color: #ffa500;
+    font-size: 50px
 }
 .setlineheight{
     margin: 0px 0px 0px 0px;
+}
+.myname{
+    font-size: 20px;
 }
 .name{
     display: flex;
@@ -45,19 +56,22 @@
     align-items: center;
     border: 1px solid #2de28d;
     border-radius: 10px;
-    padding: 4px;
+    padding: 10px;
     margin-left: 10px;
+    font-size: 20px;
 }
-.person{
+.person-background{
     margin-left: 14px;
     padding: 8px;
     background-color: #2de28d;
     border-radius: 10px;
+    font-size: 20px;
 }
 .myself{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 30px;
 }
 .typewriter h1 {
   color: #4285F4;
@@ -70,10 +84,23 @@
   font-size: 45px
   
 }
+.contactme-button-light{
+    background-color: #4285F4;
+    color: white;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+}
+.margin{
+    margin: 0px 14px 0px 0px;
+}
 .intro-description{
     width: 100%;
     text-align: left;
     font-weight: 600;
+    font-size: 15px;
 }
 .home-image-container{
     display: flex;
@@ -90,7 +117,7 @@
 }
 .icon-item{
     padding: 5px;
-    font-size: 40px;
+    font-size: 50px;
 }
 .linkedin{
     color: #0077b5;
@@ -100,18 +127,15 @@
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    width: 250px;
 }
 .mail-button{
-    margin: 14px 0px 0px 0px;
-    padding: 10px;
-    background-color: transparent;
+    margin: 0px 14px 0px 0px;
+    padding: 12px;
+    background-color: #4285F4;
     outline: none;
     border: none;
     border-radius: 8px;
-    font-weight: 600;
     cursor: pointer;
-    box-shadow: 0px 0px 15px #4285F4;
     padding: 14px;
 }
 .light-button{
@@ -121,7 +145,7 @@
 .dark-button{
     color: white;
 }
-.mail-button-light:hover{
+.contactme-button-light:hover{
     -moz-transform: scale(1.05) rotate(0deg);
     -webkit-transform: scale(1.05) rotate(0deg);
     -o-transform: scale(1.05) rotate(0deg);
@@ -132,9 +156,8 @@
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
     transition: 0.5s;
-    box-shadow: 0px 0px 15px #4285F4;
 }
-.mail-button-dark:hover{
+.contactme-button-dark:hover{
     -moz-transform: scale(1.05) rotate(0deg);
     -webkit-transform: scale(1.05) rotate(0deg);
     -o-transform: scale(1.05) rotate(0deg);
@@ -149,6 +172,9 @@
 ul{
     padding-left: 0px;
 }
+.what-i-do{
+    font-size: 30px;
+}
 .webdev-container{
     display: flex;
     justify-content: space-between;
@@ -157,6 +183,8 @@ ul{
 }
 .web-dev-heading{
     margin: 0px;
+    font-size: 30px;
+    color: #4285F4;
 }
 .technology-container{
     display: flex;
@@ -169,7 +197,7 @@ ul{
 }
 .technology-item{
     padding: 5px;
-    font-size: 40px;
+    font-size: 50px;
 }
 .html{
     color: #f06529;
@@ -211,6 +239,7 @@ ul{
 .text{
     margin: 0px;
     padding: 0px;
+    font-size: 14px;
 }
 .div .text{
     visibility: hidden;
@@ -221,8 +250,8 @@ ul{
 .webdev-description{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     min-width: 320px;
     max-width: 50%;
@@ -230,6 +259,11 @@ ul{
 }
 .li-item{
     width: 90%;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+}
+.iam{
+    font-size: 20px;
 }
 
 @keyframes typewriter {
@@ -248,7 +282,7 @@ ul{
     to { border-color: #4285F4}
 }
 
-@media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .introduction-main-container{
         flex-direction: column;
     }
@@ -273,4 +307,243 @@ ul{
     .typewriter h1{
         font-size: 30px;
     }
+    .technology-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .introduction-main-container{
+        flex-direction: column;
+    }
+    .intro-description{
+        width: 100%;
+        text-align: center;
+    }
+    .webdev-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resume-container{
+        align-self: center;
+    }
+    .social-icons-container{
+        align-self: center;
+    }
+    .intro-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .typewriter h1{
+        font-size: 30px;
+    }    
+    .technology-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .introduction-main-container{
+        flex-direction: column;
+    }
+    .intro-description{
+        width: 100%;
+        text-align: center;
+    }
+    .webdev-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resume-container{
+        align-self: center;
+    }
+    .social-icons-container{
+        align-self: center;
+    }
+    .intro-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .typewriter h1{
+        font-size: 30px;
+    }    
+    .li-item{
+        font-size: 16px;
+        min-width: 100%;
+    }
+    .technology-container{
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .introduction-main-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    } 
+    .intro-heading{
+        font-size: 60px;
+    }
+    .iam{
+        font-size: 30px;
+    }
+    .myname{
+        font-size: 30px;
+    }
+    .person-background{
+        font-size: 30px;
+    }
+    .name{
+        width: 350px;
+    }
+    .typewriter h1{
+        font-size: 40px;
+    }
+    .intro-description{
+        font-size: 18px;
+    }
+    .icon-item{
+        font-size: 60px;
+    }
+    .contactme-button-light{
+        font-size: 18px;
+        width: 200px;
+    }
+    .what-i-do{
+        font-size: 30px;
+    }
+    .web-dev-heading{
+        font-size: 30px;
+    }
+    .technology-item{
+        font-size: 60px;
+    }
+    .webdev-description{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .li-item{
+        font-size: 16px;
+    }  
+    .social-icons-container{
+        align-self: center;
+    } 
+    .resume-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .webdev-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .webdev-description{
+        min-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro-heading{
+        font-size: 50px;
+    }
+    .iam{
+        font-size: 50px;
+    }
+    .myname{
+        font-size: 40px;
+    }
+    .person-background{
+        font-size: 40px;
+    }
+    .myself{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .name{
+        width: 450px;
+    }
+    .typewriter h1{
+        font-size: 50px;
+    }
+    .intro-description{
+        font-size: 18px;
+    }
+    .icon-item{
+        font-size: 60px;
+    }
+    .contactme-button-light{
+        font-size: 18px;
+        width: 200px;
+    }
+    .what-i-do{
+        font-size: 50px;
+    }
+    .web-dev-heading{
+        font-size: 40px;
+    }
+    .technology-item{
+        font-size: 60px;
+    }
+    .webdev-description{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .li-item{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .intro-heading{
+        font-size: 100px;
+    }
+    .iam{
+        font-size: 50px;
+    }
+    .myname{
+        font-size: 50px;
+    }
+    .person-background{
+        font-size: 50px;
+    }
+    .myself{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .name{
+        width: 550px;
+    }
+    .typewriter h1{
+        font-size: 60px;
+    }
+    .intro-description{
+        font-size: 20px;
+    }
+    .icon-item{
+        font-size: 60px;
+    }
+    .contactme-button-light{
+        font-size: 18px;
+        width: 200px;
+    }
+    .what-i-do{
+        font-size: 60px;
+    }
+    .web-dev-heading{
+        font-size: 56px;
+    }
+    .technology-item{
+        font-size: 60px;
+    }
+    .webdev-description{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .li-item{
+        font-size: 20px;
+    }    
 }

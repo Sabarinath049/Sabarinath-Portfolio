@@ -11,8 +11,7 @@ const Home = props => {
             {value=>{
                 const {activeMode} = value
                 const mode = activeMode ? 'dark' : 'light'
-                const modePerson = activeMode ? 'light' : 'dark'
-                const buttonMode = activeMode ? 'dark-button mail-button-dark' : 'light-button mail-button-light'
+                const modePerson = activeMode ? 'dark-person' : 'light-person'
                 const iconMode = activeMode ? 'git-dark' : 'git-light'
                 const renderHome = () => {
                     return(
@@ -21,24 +20,19 @@ const Home = props => {
                                 <div className="intro-container">
                                     <h1 className="intro-heading setlineheight">Namaste!</h1>
                                     <div className="myself">
-                                        <h1 className="setlineheight">I'm</h1>
+                                        <h1 className="setlineheight iam">I'm</h1>
                                         <div className="name">
-                                            <h2 className="setlineheight">Sabari Nath</h2>
-                                            <h2 className={`setlineheight person ${modePerson}`}>Person</h2>
+                                            <h2 className="setlineheight myname">Sabari Nath</h2>
+                                            <h2 className={`setlineheight person-background ${modePerson}`}>Person</h2>
                                         </div>
                                     </div>
                                     <div className="typewriter">
                                         <h1>Fullstack Developer</h1>
                                     </div>
                                     <p className="intro-description">I enjoy building everthing from scratch, with every line of code, I strive to make the web a beautiful place.</p>
-                                </div>
-                                <div className="home-image-container">
-                                    <h1>Image</h1>
-                                </div>
-                            </div>
-                            <div className="social-icons-container">
+                                    <div className="social-icons-container">
                                 <div className="div">
-                                    <h5 className="text">Github</h5>
+                                    <h3 className="text">Github</h3>
                                     <a href="https://github.com/Sabarinath049" target="_blank" rel="noreferrer">
                                         <AiFillGithub className={`icon-item ${iconMode}`} />
                                     </a>
@@ -51,12 +45,17 @@ const Home = props => {
                                 </div>
                             </div>
                             <div className="resume-container">
-                                <button type="button" className={`mail-button ${buttonMode}`}>Contact me</button>
+                                <button type="button" className="contactme-button-light margin">Contact me</button>
                                 <a href="https://docs.google.com/document/d/1S4LMpodBiXutWfh3a8vpswulXNH5PzO28zy4cNE69Ws/edit?usp=sharing" target="_blank" rel="noreferrer">
-                                    <button type="button" className={`mail-button ${buttonMode}`}>See my resume</button>
+                                    <button type="button" className="contactme-button-light">See my resume</button>
                                 </a>
                             </div>
-                            <h1>What I Do?</h1>
+                                </div>
+                            <div className="home-image-container">
+                                <h1>Image</h1>
+                            </div>
+                            </div>
+                            <h1 className="what-i-do">What I Do?</h1>
                             <div className="webdev-container">
                                 <div>
                                     <h1>Image</h1>
