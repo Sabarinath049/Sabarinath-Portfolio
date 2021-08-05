@@ -9,7 +9,6 @@ const Contact = () => {
             {value=>{
             const {activeMode} = value
             const mode = activeMode ? "dark" : "light"
-            const buttonMode = activeMode ? 'dark-button mail-button-dark' : 'light-button mail-button-light'
             const iconMode = activeMode ? 'git-dark' : 'git-light'
                 const renderContact = () => {
                     return(
