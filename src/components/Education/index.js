@@ -18,6 +18,7 @@ const Education = () => {
                                     <h4 className="duration">Aug 2020 - Present</h4>
                                 </div>
                                 <h4 className="company-name">Nxtwave</h4>
+                                <p className="work">Problem solving with Python</p>
                                 <p className="work">Hands-on with Static Web Design</p>
                                 <p className="work">Worked on Responsive Web Design</p>
                                 <p className="work">Styling Webpages with CSS3, Bootstrap 4</p>
