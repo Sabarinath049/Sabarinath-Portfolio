@@ -1,7 +1,5 @@
 import ModeContext from '../../Context/index'
 import {AiOutlineLink} from 'react-icons/ai'
-import { AiFillHtml5} from "react-icons/ai"
-import { DiCss3,DiJavascript1, DiReact } from 'react-icons/di'
 import './index.css'
 
 const Projects = () => {
@@ -16,7 +14,7 @@ const Projects = () => {
                 <div className={`projects-main-container ${mode}`}>
                     <div className="projects-landing-section">
                         <div className="projects-landing-description">
-                            <h1>Projects</h1>
+                            <h1 className="project-heading">Projects</h1>
                             <p className="projects-landing-description-paragraph">My projects makes use of vast variety of latest technology tools.</p>
                         </div>
                         <div className="projects-landing-image">
@@ -26,76 +24,79 @@ const Projects = () => {
                     <div className="project-list-container">
                         <div className={`${cardMode}`}>
                             <div className="card-heading-container">
-                                <h3>Appointment</h3>
+                                <h3 className="project-card-heading">Appointment</h3>
                                 <AiOutlineLink className="link-item" />
                             </div>
-                            <div className="project-technologies-container">
-                                <div className="div">
-                                    <h5 className="text">Html</h5>
-                                    <AiFillHtml5 className="project-technology-item html" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">CSS</h5>
-                                    <DiCss3 className="project-technology-item css" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">Javascript</h5>
-                                    <DiJavascript1 className="project-technology-item js" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">React</h5>
-                                    <DiReact className="project-technology-item react" />
-                                </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
                             </div>
                             <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
                         </div>
                         <div className={`${cardMode}`}>
                             <div className="card-heading-container">
-                                <h3>Appointment</h3>
+                                <h3 className="project-card-heading">Appointment</h3>
                                 <AiOutlineLink className="link-item" />
                             </div>
-                            <div className="project-technologies-container">
-                                <div className="div">
-                                    <h5 className="text">Html</h5>
-                                    <AiFillHtml5 className="project-technology-item html" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">CSS</h5>
-                                    <DiCss3 className="project-technology-item css" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">Javascript</h5>
-                                    <DiJavascript1 className="project-technology-item js" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">React</h5>
-                                    <DiReact className="project-technology-item react" />
-                                </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
                             </div>
                             <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
                         </div>
                         <div className={`${cardMode}`}>
                             <div className="card-heading-container">
-                                <h3>Appointment</h3>
+                                <h3 className="project-card-heading">Appointment</h3>
                                 <AiOutlineLink className="link-item" />
                             </div>
-                            <div className="project-technologies-container">
-                                <div className="div">
-                                    <h5 className="text">Html</h5>
-                                    <AiFillHtml5 className="project-technology-item html" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">CSS</h5>
-                                    <DiCss3 className="project-technology-item css" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">Javascript</h5>
-                                    <DiJavascript1 className="project-technology-item js" />
-                                </div>
-                                <div className="div">
-                                    <h5 className="text">React</h5>
-                                    <DiReact className="project-technology-item react" />
-                                </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
+                            </div>
+                            <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
+                        </div>
+                        <div className={`${cardMode}`}>
+                            <div className="card-heading-container">
+                                <h3 className="project-card-heading">Appointment</h3>
+                                <AiOutlineLink className="link-item" />
+                            </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
+                            </div>
+                            <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
+                        </div>
+                        <div className={`${cardMode}`}>
+                            <div className="card-heading-container">
+                                <h3 className="project-card-heading">Appointment</h3>
+                                <AiOutlineLink className="link-item" />
+                            </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
+                            </div>
+                            <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
+                        </div>
+                        <div className={`${cardMode}`}>
+                            <div className="card-heading-container">
+                                <h3 className="project-card-heading">Appointment</h3>
+                                <AiOutlineLink className="link-item" />
+                            </div>
+                            <div className="tech-names">
+                                <p className="tech-item html">HTML</p>
+                                <p className="tech-item css">CSS</p>
+                                <p className="tech-item js">Javascript</p>
+                                <p className="tech-item react">React</p>
                             </div>
                             <p className="project-card-description">A web App that store all the appointments at one place, loaded with new features such as starring, filternig.</p>
                         </div>

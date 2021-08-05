@@ -5,7 +5,6 @@
   font-weight: 600;
   line-height: 1.6;
 }
-
 .dark{
     background-color: black;
     color: white
@@ -32,13 +31,15 @@
     align-items: center;
     width: 100%;
 }
-
+.project-heading{
+    color: #ffa500;
+}
 .projects-landing-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 320px;
+    min-width: 290px;
     max-width: 50%;
 }
 .projects-landing-description-paragraph{
@@ -111,22 +112,22 @@
     font-size: 25px;
 }
 
-.project-technologies-container{
+.tech-names{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    align-self: center;
+    flex-wrap: wrap;
 }
-.text{
-    font-size: 10px;
+
+.tech-item{
+    font-size: 12px;
+    margin: 0px 10px 0px 0px;
 }
-.project-technology-item{
-    padding: 5px;
-    font-size: 40px
-}
+
 .project-card-description{
     width: 90%;
     font-size: 12px;
+    font-weight: 500;
 }
 
 .html{
@@ -188,10 +189,22 @@
         justify-content: center;
     }
     .project-item-light{
-        max-width: 275px;
+        max-width: 260px;
     }
     .project-item-dark{
-        max-width: 275px;
+        max-width: 260px;
+    }
+    .projects-landing-description-paragraph{
+        font-size: 16px;
+        width: 90%;
+    }
+    .project-card-heading{
+        font-size: 24px;
+    }
+    .project-card-description{
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
     }
 }
 
@@ -204,10 +217,22 @@
         justify-content: center;
     }
     .project-item-dark{
-        max-width: 340px;
+        max-width: 290px;
     }
     .project-item-light{
-        max-width: 340px;
+        max-width: 290px;
+    }
+    .projects-landing-description-paragraph{
+        font-size: 16px;
+        width: 90%;
+    }
+    .project-card-heading{
+        font-size: 24px;
+    }
+    .project-card-description{
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
     }
 }
 
@@ -225,6 +250,24 @@
         flex-direction: column;
         justify-content: center;
     }
+    .projects-landing-description-paragraph{
+        font-size: 16px;
+        width: 90%;
+    }
+    .project-card-heading{
+        font-size: 24px;
+    }
+    .project-card-description{
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .project-item-dark{
+        max-width: 320px;
+    }
+    .project-item-light{
+        max-width: 320px;
+    }
     
 }
 
@@ -235,6 +278,22 @@
     .project-item-dark{
         max-width: 310px;
     }
+    .projects-landing-description-paragraph{
+        font-size: 16px;
+        width: 90%;
+    }
+    .project-heading{
+        font-size: 30px;
+    }
+    .project-card-heading{
+        font-size: 24px;
+    }
+    .project-card-description{
+        font-size: 16px;
+    }
+    .tech-item{
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -244,6 +303,24 @@
     .project-item-dark{
         max-width: 280px;
     }
+    .project-heading{
+        font-size: 40px;
+        margin: 15px 0px 15px 0px;
+    }
+    .projects-landing-description-paragraph{
+        font-size: 20px;
+        width: 90%;
+    }
+    .project-card-heading{
+        font-size: 24px;
+    }
+    .project-card-description{
+        font-size: 16px;
+    }
+    .tech-item{
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -253,5 +330,21 @@
     .project-item-dark{
         max-width: 350px;
     }
-    
+    .project-heading{
+        font-size: 50px;
+        margin: 15px 0px 15px 0px;
+    }
+    .projects-landing-description-paragraph{
+        font-size: 20px;
+        width: 90%;
+    }
+    .project-card-heading{
+        font-size: 28px;
+    }
+    .project-card-description{
+        font-size: 18px;
+    }
+    .tech-item{
+        font-size: 15px;
+    }
 }
