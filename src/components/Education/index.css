@@ -56,7 +56,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 270px;
 }
 .education-role-container{
     display: flex;
@@ -68,15 +67,16 @@
     background-color: #ffa500;
     padding: 12px;
     color: black;
-    font-size: 14px;
     text-align: center;
     margin: 0px 0px 0px 0px;
 }
 .duration{
-    font-size: 10px;
+    margin: 0px 0px 0px 14px;
+    font-weight: 500;
 }
 .education-duration{
     font-size: 12px;
+    font-weight: 500;
 }
 .company-name{
     margin: 16px 0px 16px 0px;
@@ -84,6 +84,7 @@
 .work{
     margin: 0px 0px 0px 14px;
     font-size: 14px;
+    font-weight: 500;
 }
 .work:before {
     content:        "";
@@ -120,6 +121,25 @@
         justify-content: center;
         align-items: center;
     }
+    .experience-heading-element{
+        font-size: 32px;
+    }
+    .role{
+        font-size: 14px;
+    }
+    .duration{
+        font-size: 10px;
+    }
+    .company-name{
+        font-size: 16px;
+    }
+    .work{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .education-heading-element{
+        font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -127,11 +147,39 @@
         flex-direction: column;
         justify-content: center;
     }
-    .tech-role-container{
-        min-width: 300px;
+    .experience-item{
+        max-width: 275px;
+    }
+    .education-item{
+        max-width: 275px;
+    }
+    .education-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-heading-element{
+        font-size: 32px;
+    }
+    .role{
+        font-size: 14px;
     }
     .duration{
-        font-size: 13px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .company-name{
+        font-size: 16px;
+    }
+    .work{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .education-heading-element{
+        font-size: 32px;
     }
 }
 
@@ -140,25 +188,93 @@
         flex-direction: column;
         justify-content: center;
     }
-    .tech-role-container{
+    .experience-item{
+        width: 100%;
+    }
+    .education-item{
+        min-width: 100%;
+    }
+    .education-item{
+        max-width: 275px;
+    }
+    .education-container{
+        flex-direction: column;
         justify-content: flex-start;
-        max-width: 330px;
+        align-items: flex-start;
+        align-self: flex-start;
+        min-width: 100%;
+    }
+    .experience-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-heading-element{
+        font-size: 32px;
+    }
+    .role{
+        font-size: 14px;
     }
     .duration{
-        margin-left: 14px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .company-name{
+        font-size: 16px;
+    }
+    .work{
         font-size: 14px;
+        font-weight: 500;
+    }
+    .education-heading-element{
+        font-size: 32px;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .education-container{
-        max-width: 48%;
+        width: 100%;
     }
     .experience-container{
-        max-width: 48%;
+        width: 100%;
     }
     .education-main-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-item{
+        max-width: 100%;
+    }
+    .education-item{
+        max-width: 100%;
+    }
+    .education-container{
+        justify-content: flex-start;
         align-items: flex-start;
+    }
+    .experience-container{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .experience-heading-element{
+        font-size: 32px;
+    }
+    .role{
+        font-size: 14px;
+    }
+    .duration{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .company-name{
+        font-size: 16px;
+    }
+    .work{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .education-heading-element{
+        font-size: 32px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
@@ -170,12 +286,9 @@
     }
     .education-main-container{
         align-items: flex-start;
-    }    
-    .tech-role-container{
-        min-width: 300px;
     }
-    .duration, .education-duration{
-        font-size: 13px;
+    .role, .duration, .education-duration{
+        font-size: 14px;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -189,13 +302,19 @@
         justify-content: space-around;
         align-items: flex-start;
     }    
-    .tech-role-container{
-        min-width: 330px;
-    }
     .duration, .education-duration{
         font-size: 14px;
     } 
     .role{
         font-size: 16px;
+    }
+    .education-heading-element, .education-heading-element{
+        font-size: 40px;
     }   
+    .company-name{
+        font-size: 20px;
+    }
+    .work{
+        font-size: 20px;
+    }
 }

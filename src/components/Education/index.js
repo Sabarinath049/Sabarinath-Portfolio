@@ -54,7 +54,7 @@ const Education = () => {
                             <div className="education-item">
                                 <div className="education-role-container">
                                     <h3 className="education role">Bachelor of Computer Science and Engineering</h3>
-                                    <h4 className="education-duration">2018-2021</h4>
+                                    <h4 className="education-duration">2017-2021</h4>
                                 </div>
                                 <h4 className="company-name">Rajiv Gandhi University of Knowledge Technologies, Nuzvid</h4>
                                 <p className="work">CGPA: 8/10</p>
