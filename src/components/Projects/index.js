@@ -1,5 +1,6 @@
 import ModeContext from '../../Context/index'
 import {AiOutlineLink} from 'react-icons/ai'
+import AddressImg from './AddressImg'
 import './index.css'
 
 const Projects = () => {
@@ -18,7 +19,7 @@ const Projects = () => {
                             <p className="projects-landing-description-paragraph">My projects makes use of vast variety of latest technology tools.</p>
                         </div>
                         <div className="projects-landing-image">
-                            <h1>Image</h1>
+                            <AddressImg />
                         </div>
                     </div>
                     <div className="project-list-container">

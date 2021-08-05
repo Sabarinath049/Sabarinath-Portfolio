@@ -3,6 +3,8 @@ import {AiFillGithub, AiFillLinkedin, AiFillHtml5} from 'react-icons/ai'
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import { DiCss3,DiJavascript1, DiReact, DiNodejsSmall, DiSqllite } from 'react-icons/di'
 import {RiNpmjsFill} from 'react-icons/ri'
+import AddressImg from './AddressImg'
+import WebsiteLottie from './WebsiteLottie'
 import './index.css'
 
 const Home = props => {
@@ -52,13 +54,13 @@ const Home = props => {
                             </div>
                                 </div>
                             <div className="home-image-container">
-                                <h1>Image</h1>
+                                <AddressImg />
                             </div>
                             </div>
                             <h1 className="what-i-do">What I Do?</h1>
                             <div className="webdev-container">
                                 <div>
-                                    <h1>Image</h1>
+                                    <WebsiteLottie />
                                 </div>
                                 <ul className="webdev-description">
                                     <li><h1 className="web-dev-heading">Web Development</h1></li>
