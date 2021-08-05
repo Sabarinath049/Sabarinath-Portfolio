@@ -9,7 +9,7 @@ export default function AddressImg(){
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        animationData: require('./contact.json')
+        animationData: require("./contact.json")
       })
     }, [])
     return (
