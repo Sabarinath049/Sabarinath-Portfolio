@@ -1,5 +1,6 @@
 import ModeContext from '../../Context/index'
 import {AiFillGithub, AiFillLinkedin, AiFillGoogleCircle, AiFillInstagram} from 'react-icons/ai'
+import AddressImg from './AddressImg'
 
 import './index.css'
 
@@ -14,7 +15,7 @@ const Contact = () => {
                     return(
                         <div className={`contact-main-container ${mode}`}>
                             <div>
-                                <h1>Image</h1>
+                                <AddressImg />
                             </div>
                             <div className='contact-details-container'>
                                 <h1 className="contact-heading clearmargin">Contact Me</h1>
