@@ -23,7 +23,7 @@ const Header =  () => (
                         <Link to="/" className={`nav-item ${mode}`}>Home</Link>
                         <Link to="/education" className={`nav-item ${mode}`}>Experience & Education</Link>
                         <Link to="/projects" className={`nav-item ${mode}`}>Projects</Link>
-                        <Link to="/contact" className={`nav-item ${mode}`}>Contact</Link>
+                        <Link to="/contact" className={`nav-item ${mode}`}>Contact Me</Link>
                     </div>
                     <div className="nav-mobile-container">
                         <BsMoon onClick={changeMode} className="mobile-nav-item" />
