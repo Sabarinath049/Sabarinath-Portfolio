@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Sabarinath-Portfolio/static/css/main.bc134762.chunk.css",
-    "main.js": "/Sabarinath-Portfolio/static/js/main.4a0f3066.chunk.js",
-    "main.js.map": "/Sabarinath-Portfolio/static/js/main.4a0f3066.chunk.js.map",
-    "runtime-main.js": "/Sabarinath-Portfolio/static/js/runtime-main.c5c7311c.js",
-    "runtime-main.js.map": "/Sabarinath-Portfolio/static/js/runtime-main.c5c7311c.js.map",
-    "static/js/2.3baedcad.chunk.js": "/Sabarinath-Portfolio/static/js/2.3baedcad.chunk.js",
-    "static/js/2.3baedcad.chunk.js.map": "/Sabarinath-Portfolio/static/js/2.3baedcad.chunk.js.map",
-    "static/js/3.ae3c5fb8.chunk.js": "/Sabarinath-Portfolio/static/js/3.ae3c5fb8.chunk.js",
-    "static/js/3.ae3c5fb8.chunk.js.map": "/Sabarinath-Portfolio/static/js/3.ae3c5fb8.chunk.js.map",
+    "main.css": "/Sabarinath-Portfolio/static/css/main.53c67dc6.chunk.css",
+    "main.js": "/Sabarinath-Portfolio/static/js/main.95975c2f.chunk.js",
+    "main.js.map": "/Sabarinath-Portfolio/static/js/main.95975c2f.chunk.js.map",
+    "runtime-main.js": "/Sabarinath-Portfolio/static/js/runtime-main.4c294f24.js",
+    "runtime-main.js.map": "/Sabarinath-Portfolio/static/js/runtime-main.4c294f24.js.map",
+    "static/js/2.b0635d3b.chunk.js": "/Sabarinath-Portfolio/static/js/2.b0635d3b.chunk.js",
+    "static/js/2.b0635d3b.chunk.js.map": "/Sabarinath-Portfolio/static/js/2.b0635d3b.chunk.js.map",
+    "static/js/3.3cf7bbba.chunk.js": "/Sabarinath-Portfolio/static/js/3.3cf7bbba.chunk.js",
+    "static/js/3.3cf7bbba.chunk.js.map": "/Sabarinath-Portfolio/static/js/3.3cf7bbba.chunk.js.map",
     "index.html": "/Sabarinath-Portfolio/index.html",
-    "static/css/main.bc134762.chunk.css.map": "/Sabarinath-Portfolio/static/css/main.bc134762.chunk.css.map",
-    "static/js/2.3baedcad.chunk.js.LICENSE.txt": "/Sabarinath-Portfolio/static/js/2.3baedcad.chunk.js.LICENSE.txt"
+    "static/css/main.53c67dc6.chunk.css.map": "/Sabarinath-Portfolio/static/css/main.53c67dc6.chunk.css.map",
+    "static/js/2.b0635d3b.chunk.js.LICENSE.txt": "/Sabarinath-Portfolio/static/js/2.b0635d3b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5c7311c.js",
-    "static/js/2.3baedcad.chunk.js",
-    "static/css/main.bc134762.chunk.css",
-    "static/js/main.4a0f3066.chunk.js"
+    "static/js/runtime-main.4c294f24.js",
+    "static/js/2.b0635d3b.chunk.js",
+    "static/css/main.53c67dc6.chunk.css",
+    "static/js/main.95975c2f.chunk.js"
   ]
 }
