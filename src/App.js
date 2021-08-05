@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import ModeContext from './Context/index'
 import Header from './components/Header';
 import Projects from './components/Projects';
@@ -28,6 +28,7 @@ class App extends Component {
       }}>
         <BrowserRouter>
             <Header />
+            <Redirect to="/" />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/education" component={Education} />
