@@ -154,7 +154,7 @@ a:hover{
     transition: 0.5s;
 }
 
-@media screen and (max-width: 320px), (max-width: 375px), (max-width: 425px){
+@media screen and (max-width: 320px) {
     .contact-main-container{
         flex-direction: column;
     }
@@ -187,6 +187,32 @@ a:hover{
     .contact-description{
         width: 100%;
     }
+    .contact-main-container{
+        flex-direction: column;
+    }
+    .contact-description{
+        width: 100%;
+    }
+    .contact-heading{
+        font-size: 30px;
+    }
+    .contact-description{
+        font-size: 16px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 20px;
+    }
+    .address-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #4285F4;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -195,6 +221,32 @@ a:hover{
     }    
     .contact-details-container{
         max-width: 100%;
+    }
+    .contact-main-container{
+        flex-direction: column;
+    }
+    .contact-description{
+        width: 100%;
+    }
+    .contact-heading{
+        font-size: 30px;
+    }
+    .contact-description{
+        font-size: 16px;
+    }
+    .icon-item{
+        font-size: 50px;
+    }
+    .contact-description{
+        width: 90%;
+    }
+    .address-heading{
+        font-size: 20px;
+    }
+    .address-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: #4285F4;
     }
 }
 
