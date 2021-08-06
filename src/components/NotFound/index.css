@@ -1,0 +1,41 @@
+.notfound-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    height: 100vh;
+}
+.notfound-lottie{
+    max-width: 100%;
+}
+@media screen and (max-width: 320px){
+    .notfound-main-container{
+        min-width: 290px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .notfound-main-container{
+        min-width: 290px;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .notfound-main-container{
+        min-width: 320px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .notfound-main-container{
+        min-width: 100%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .notfound-main-container{
+        min-width: 100%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .notfound-main-container{
+        min-width: 100%;
+    }
+}
