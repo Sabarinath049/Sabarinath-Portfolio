@@ -35,8 +35,7 @@ class App extends Component {
               <Route exact path="/education" component={Education} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
-              <Route path="/not-found" component={NotFound} />
-              <Redirect to="not-found" />
+              <Route component={NotFound} />
             </Switch>
             <Footer />
         </BrowserRouter>
