@@ -1,4 +1,5 @@
 import ModeContext from '../../Context/index'
+import {Link} from 'react-router-dom'
 import {AiFillGithub, AiFillLinkedin, AiFillHtml5} from 'react-icons/ai'
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import { DiCss3,DiJavascript1, DiReact, DiNodejsSmall, DiSqllite } from 'react-icons/di'
@@ -47,7 +48,7 @@ const Home = props => {
                                 </div>
                             </div>
                             <div className="resume-container">
-                                <button type="button" className="contactme-button-light margin">Contact me</button>
+                                <Link to="/contact" ><button type="button" className="contactme-button-light margin">Contact me</button></Link>
                                 <a href="https://docs.google.com/document/d/1S4LMpodBiXutWfh3a8vpswulXNH5PzO28zy4cNE69Ws/edit?usp=sharing" target="_blank" rel="noreferrer">
                                     <button type="button" className="contactme-button-light">See my resume</button>
                                 </a>
