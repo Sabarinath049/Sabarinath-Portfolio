@@ -10,7 +10,6 @@ const Projects = () => {
             const {activeMode} = value
             const mode = activeMode ? "dark" : "light"
             const cardMode = mode === 'dark' ? 'project-item-dark' : 'project-item-light'
-            const projectIconMode = activeMode === 'dark' ? 'dark-icon' : 'light-icon'
             const renderProjects = () => {
                 return(
                 <div className={`projects-main-container ${mode}`}>
@@ -57,7 +56,7 @@ const Projects = () => {
                                 <p className="tech-item css">CSS</p>
                                 <p className="tech-item js">Javascript</p>
                             </div>
-                            <p className="project-card-description">We can search peeps who are present in git and get their details, repos, repo-stats</p>
+                            <p className="project-card-description">We can search peeps who are present in git and get their details, repos, repo-stats.</p>
                         </div>
                         <div className={`${cardMode}`}>
                             <div className="card-heading-container">
