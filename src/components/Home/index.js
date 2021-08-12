@@ -49,7 +49,7 @@ const Home = props => {
                             </div>
                             <div className="resume-container">
                                 <Link to="/contact" ><button type="button" className="contactme-button-light margin">Contact me</button></Link>
-                                <a href="https://docs.google.com/document/d/1S4LMpodBiXutWfh3a8vpswulXNH5PzO28zy4cNE69Ws/edit?usp=sharing" target="_blank" rel="noreferrer">
+                                <a href="https://docs.google.com/document/d/1bZXPG_joQgizWDdYvwtEyWnwABGnYz_BTcYGHKZkn9k/edit?usp=sharing" target="_blank" rel="noreferrer">
                                     <button type="button" className="contactme-button-light">See my resume</button>
                                 </a>
                             </div>
